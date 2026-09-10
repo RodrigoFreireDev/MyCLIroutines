@@ -1,0 +1,50 @@
+Fazer um programa interativo que user TODOS os conhecimentos adquiridos entre arquivo 1 até 46.
+
+Sujestão de sistema: Talvez um sistema de sistemas: com opção de entrar no menu(calculos, outros)
+
+Fazer a primeira versão
+
+depois repetir o projeto pelo menos umas 7 ou mais vezes.
+
+ - Revisar todos os arquivos um a um e absrover um objetivo ou mais de cada um deles.
+    Objetivo: Termos uma lista de checklists para colocar no projeto de treinos.
+
+LISTA DE OBJETIVOS POR ARQUIVO:
+
+[] Criar Infra do projeto local com Pastas e Config. README SOBRE.
+[] Usar todos objetos globais estudados |Objeto Global│ Node.js (Server)|. OBS: Browser (DOM) não é possível usar no terminal!
+[OK] Usar comentarios. Pelomenos um de 'O que é', 'O que faz' e 'Porque dessa forma'!
+[] Usar todos os tipos de vars que estudados e COMENTAR SOBRE cada uma delas.
+[] Usar console.log() e todas as formas de concatenação com vars. COMENTAR SOBRE.
+[] Usar todos os tipos de dados de variaveis que estudamos!. COMENTAR SOBRE.
+[] Usar todos os Operadores Matemáticos estudados.
+[] Usar todos os Operadores De Comparação estudados.
+[] Usar todos os Operadores Lógicos estudados.
+[] Usar todas as Condicionais estudados(IF, ELSE, IF ELSE).
+[] Usar uma ou mais Condicionais estudados com Operador Ternario. COMENTAR SOBRE.
+[] Usar uma ou mais Condicionais compreenda truthy(true) e falsy(false) COMENTAR SOBRE.
+[] Usar um ou mais switch.
+[] Usar todos os tipos de Laços de Repetição estudados. COMENTAR SOBRE.
+[] Usar todos as variantes do Laços de Repetição FOR. COMENTAR SOBRE.
+[] Usar uma ou mais Funções.
+[] Usar uma ou mais Arrow Functions. COMENTAR SOBRE.
+[] Usar uma ou mais 'This' em uma Função. COMENTAR SOBRE.
+[] Usar uma ou mais HOF (Higher-Order Function) e Callbacks. COMENTAR SOBRE.
+[] Usar uma ou mais Entrada de Dados via Terminal. COMENTAR SOBRE.
+[] Usar uma ou mais Arrays.
+[] Usar todas as formas de manipulação e repetição de que estudamos sobre Arrays. COMENTAR SOBRE.
+[] Usar todos os metodos funcionais para Arrays que estudamos. COMENTAR SOBRE.
+[] Usar uma ou mais Objeto.
+[] Usar todos os metodos funcionais para Objeto que estudamos. COMENTAR SOBRE.
+[] Receber e tratar pelo menos um JSON usando as boas praticas e formas de uso mais comuns para essa estrutura de dados. COMENTAR SOBRE.
+[] Usar uma ou mais Referência: O 'This' em uma Objeto. COMENTAR SOBRE.
+[] Usar o Objeto Global de Date(Data em Postuguês) no projeto e alguns de seus metodos funcionais. COMENTAR SOBRE.
+[] Usar uma ou mais Operadores Spread/REST em um Arrays e em um Objeto. COMENTAR SOBRE.
+[] Usar uma ou mais Destructuring/Desestruturacao(Use o máximo que puder e principalmente para tratar Arrays e Objetos). COMENTAR SOBRE.
+...
+[] Revisar nome de Variaveis e Funções.
+[] Ganrantir que usamos pelo menos uma das Principais novidades do ES6(Arquivo 44).
+
+Arquivo atual: 47 OK Feito!
+De: 47
+Hoje: 20/08/2026

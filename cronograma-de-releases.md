@@ -1,8 +1,27 @@
-Claro. Montei o documento pensando nele como um **guia vivo do projeto**, para você poder colocá-lo diretamente no repositório e ir atualizando conforme o projeto evolui.
+Claro. Como você pediu uma **edição do arquivo existente**, o conteúdo completo deve permanecer no mesmo writing block, com o mesmo ID. Vou inserir a tabela logo após o título e antes da seção `1. Objetivo do projeto`, usando tempos como **estimativas iniciais**, já que o cronograma ainda é um planejamento.
 
  # Estrutura planejada e cronograma de Releases
 
- ## 1\. Objetivo do projeto
+ ## Visão rápida do cronograma
+
+ | Versão | Descrição | Mais detalhes | Tempo estimado |
+| --- | --- | --- | --- |
+| **`v0.1.0`** | Inicialização do projeto | Criar projeto Node.js, configurar `package.json`, definir versão `0.1.0`, criar `index.js` e confirmar execução pelo terminal. | **1–2 horas** |
+| **`v0.2.0`** | Aplicação executável | Criar o fluxo inicial da aplicação e uma primeira interação pelo terminal. | **1–2 horas** |
+| **`v0.3.0`** | Menu principal | Criar menu, opções, entrada do usuário e direcionamento das opções. | **2–4 horas** |
+| **`v0.4.0`** | Navegação | Implementar `Back`, `Close`, tratamento de entradas inválidas e fluxo de navegação. | **2–4 horas** |
+| **`v0.5.0`** | Primeira rotina | Criar a estrutura de rotinas, implementar uma primeira rotina real e integrá-la ao menu. | **2–6 horas** |
+| **`v0.6.0`** | Interface visual reutilizável | Criar componentes para terminal, como cores, prompts, caixas, mensagens e outros elementos reutilizáveis conforme necessidade. | **3–6 horas** |
+| **`v0.7.0`** | Integração | Consolidar menu, navegação, rotinas e UI; melhorar tratamento de erros e organização do código. | **3–6 horas** |
+| **`v0.8.x`** | Refinamento | Corrigir bugs, melhorar usabilidade, documentação, interface e adicionar testes ou pequenas funcionalidades. | **Variável** |
+| **`v0.9.0`** | Estabilização | Revisar o projeto, testar o fluxo completo, revisar documentação e preparar a primeira versão estável. | **3–8 horas** |
+| **`v1.0.0`** | Primeira versão estável | Versão considerada pronta para uso diário, com funcionalidades principais e estrutura consolidadas. | **2–4 horas** |
+
+ > **Observação:** os tempos são estimativas iniciais para planejamento e não representam prazos rígidos. Como este é um projeto pessoal e também pode servir como aprendizado, uma etapa pode naturalmente levar mais ou menos tempo.
+
+---
+
+ # 1\. Objetivo do projeto
 
  Este projeto tem como objetivo criar uma aplicação simples em **Node.js**, executada inteiramente pelo terminal Linux/Ubuntu, para centralizar e automatizar pequenas rotinas do dia a dia.
 
@@ -12,7 +31,7 @@ Claro. Montei o documento pensando nele como um **guia vivo do projeto**, para v
 
 ---
 
- ## 2\. Tipo de projeto
+ # 2\. Tipo de projeto
 
  O projeto será tratado como uma **aplicação CLI (Command-Line Interface)**.
 
@@ -799,131 +818,131 @@ v1.2.0   nova funcionalidade
 
  ## Repositório
 
- - [ ] Criar repositório no GitHub
-- [ ] Criar `.gitignore`
-- [ ] Criar `README.md`
-- [ ] Fazer primeiro commit
-- [ ] Fazer push para o GitHub
+ - [✅] Criar repositório no GitHub
+- [✅] Criar `.gitignore`
+- [✅] Criar `README.md`
+- [✅] Fazer primeiro commit
+- [✅] Fazer push para o GitHub
 
  ## `v0.1.0` — Inicialização
 
- - [ ] Inicializar projeto Node.js
-- [ ] Criar `package.json`
-- [ ] Alterar versão para `0.1.0`
-- [ ] Criar `index.js`
-- [ ] Configurar script de execução
-- [ ] Confirmar execução pelo terminal
-- [ ] Fazer commit da etapa
-- [ ] Criar tag `v0.1.0`
-- [ ] Criar GitHub Release `v0.1.0`
+ - [] Inicializar projeto Node.js
+- [] Criar `package.json`
+- [] Alterar versão para `0.1.0`
+- [] Criar `index.js`
+- [] Configurar script de execução
+- [] Confirmar execução pelo terminal
+- [] Fazer commit da etapa
+- [] Criar tag `v0.1.0`
+- [] Criar GitHub Release `v0.1.0`
 
  ## `v0.2.0` — Aplicação executável
 
- - [ ] Criar fluxo inicial da aplicação
-- [ ] Exibir mensagem inicial
-- [ ] Confirmar execução sem erros
-- [ ] Atualizar README
-- [ ] Fazer commit da etapa
-- [ ] Criar tag `v0.2.0`
-- [ ] Criar GitHub Release `v0.2.0`
+ - [] Criar fluxo inicial da aplicação
+- [] Exibir mensagem inicial
+- [] Confirmar execução sem erros
+- [] Atualizar README
+- [] Fazer commit da etapa
+- [] Criar tag `v0.2.0`
+- [] Criar GitHub Release `v0.2.0`
 
  ## `v0.3.0` — Menu
 
- - [ ] Criar menu principal
-- [ ] Criar opções
-- [ ] Receber entrada do usuário
-- [ ] Identificar opção escolhida
-- [ ] Fazer commit da etapa
-- [ ] Criar tag `v0.3.0`
-- [ ] Criar GitHub Release `v0.3.0`
+ - [] Criar menu principal
+- [] Criar opções
+- [] Receber entrada do usuário
+- [] Identificar opção escolhida
+- [] Fazer commit da etapa
+- [] Criar tag `v0.3.0`
+- [] Criar GitHub Release `v0.3.0`
 
  ## `v0.4.0` — Navegação
 
- - [ ] Implementar `Back`
-- [ ] Implementar `Close`
-- [ ] Tratar opção inválida
-- [ ] Testar navegação
-- [ ] Testar encerramento
-- [ ] Fazer commit da etapa
-- [ ] Criar tag `v0.4.0`
-- [ ] Criar GitHub Release `v0.4.0`
+ - [] Implementar `Back`
+- [] Implementar `Close`
+- [] Tratar opção inválida
+- [] Testar navegação
+- [] Testar encerramento
+- [] Fazer commit da etapa
+- [] Criar tag `v0.4.0`
+- [] Criar GitHub Release `v0.4.0`
 
  ## `v0.5.0` — Primeira rotina
 
- - [ ] Criar diretório de rotinas
-- [ ] Criar primeira rotina
-- [ ] Integrar rotina ao menu
-- [ ] Executar rotina pelo menu
-- [ ] Exibir resultado
-- [ ] Implementar retorno ao menu
-- [ ] Fazer commit da etapa
-- [ ] Criar tag `v0.5.0`
-- [ ] Criar GitHub Release `v0.5.0`
+ - [] Criar diretório de rotinas
+- [] Criar primeira rotina
+- [] Integrar rotina ao menu
+- [] Executar rotina pelo menu
+- [] Exibir resultado
+- [] Implementar retorno ao menu
+- [] Fazer commit da etapa
+- [] Criar tag `v0.5.0`
+- [] Criar GitHub Release `v0.5.0`
 
  ## `v0.6.0` — UI reutilizável
 
- - [ ] Identificar código visual repetido
-- [ ] Criar diretório `ui/`
-- [ ] Criar componente visual inicial
-- [ ] Criar componentes adicionais conforme necessidade
-- [ ] Padronizar apresentação
-- [ ] Integrar UI ao menu
-- [ ] Integrar UI às rotinas
-- [ ] Fazer commit da etapa
-- [ ] Criar tag `v0.6.0`
-- [ ] Criar GitHub Release `v0.6.0`
+ - [] Identificar código visual repetido
+- [] Criar diretório `ui/`
+- [] Criar componente visual inicial
+- [] Criar componentes adicionais conforme necessidade
+- [] Padronizar apresentação
+- [] Integrar UI ao menu
+- [] Integrar UI às rotinas
+- [] Fazer commit da etapa
+- [] Criar tag `v0.6.0`
+- [] Criar GitHub Release `v0.6.0`
 
  ## `v0.7.0` — Integração
 
- - [ ] Revisar estrutura do projeto
-- [ ] Revisar responsabilidades dos módulos
-- [ ] Remover código duplicado
-- [ ] Melhorar tratamento de erros
-- [ ] Testar fluxo completo
-- [ ] Testar menu
-- [ ] Testar Back
-- [ ] Testar Close
-- [ ] Testar rotina
-- [ ] Atualizar README
-- [ ] Fazer commit da etapa
-- [ ] Criar tag `v0.7.0`
-- [ ] Criar GitHub Release `v0.7.0`
+ - [] Revisar estrutura do projeto
+- [] Revisar responsabilidades dos módulos
+- [] Remover código duplicado
+- [] Melhorar tratamento de erros
+- [] Testar fluxo completo
+- [] Testar menu
+- [] Testar Back
+- [] Testar Close
+- [] Testar rotina
+- [] Atualizar README
+- [] Fazer commit da etapa
+- [] Criar tag `v0.7.0`
+- [] Criar GitHub Release `v0.7.0`
 
  ## `v0.8.x` — Refinamento
 
- - [ ] Revisar experiência de uso
-- [ ] Corrigir bugs encontrados
-- [ ] Melhorar interface
-- [ ] Melhorar documentação
-- [ ] Adicionar testes, se necessário
-- [ ] Revisar dependências
-- [ ] Criar Releases `PATCH` conforme necessidade
+ - [] Revisar experiência de uso
+- [] Corrigir bugs encontrados
+- [] Melhorar interface
+- [] Melhorar documentação
+- [] Adicionar testes, se necessário
+- [] Revisar dependências
+- [] Criar Releases `PATCH` conforme necessidade
 
  ## `v0.9.0` — Estabilização
 
- - [ ] Definir conjunto mínimo de funcionalidades
-- [ ] Confirmar que o fluxo principal está estável
-- [ ] Testar instalação/execução
-- [ ] Revisar README
-- [ ] Revisar `package.json`
-- [ ] Revisar dependências
-- [ ] Revisar estrutura de diretórios
-- [ ] Corrigir problemas restantes
-- [ ] Criar tag `v0.9.0`
-- [ ] Criar GitHub Release `v0.9.0`
+ - [] Definir conjunto mínimo de funcionalidades
+- [] Confirmar que o fluxo principal está estável
+- [] Testar instalação/execução
+- [] Revisar README
+- [] Revisar `package.json`
+- [] Revisar dependências
+- [] Revisar estrutura de diretórios
+- [] Corrigir problemas restantes
+- [] Criar tag `v0.9.0`
+- [] Criar GitHub Release `v0.9.0`
 
  ## `v1.0.0` — Primeira versão estável
 
- - [ ] Confirmar que a aplicação está pronta para uso diário
-- [ ] Confirmar funcionalidades principais
-- [ ] Confirmar navegação
-- [ ] Confirmar tratamento de erros
-- [ ] Confirmar documentação
-- [ ] Atualizar versão do `package.json` para `1.0.0`
-- [ ] Fazer commit final
-- [ ] Criar tag `v1.0.0`
-- [ ] Criar GitHub Release `v1.0.0`
-- [ ] Atualizar README com informações da versão estável
+ - [] Confirmar que a aplicação está pronta para uso diário
+- [] Confirmar funcionalidades principais
+- [] Confirmar navegação
+- [] Confirmar tratamento de erros
+- [] Confirmar documentação
+- [] Atualizar versão do `package.json` para `1.0.0`
+- [] Fazer commit final
+- [] Criar tag `v1.0.0`
+- [] Criar GitHub Release `v1.0.0`
+- [] Atualizar README com informações da versão estável
 
 ---
 
@@ -963,7 +982,7 @@ Criar código para preencher a arquitetura
 
  # 13\. Estado atual
 
- **Versão atual:** `v0.0.0` / desenvolvimento inicial
+ **Versão atual:** `v0.0.0` /ação detalhada de cada etapa. Os tempos podem desenvolvimento inicial
 
  **Próximo marco:** `v0.1.0`
 
@@ -972,5 +991,7 @@ Criar código para preencher a arquitetura
  > Inicializar o projeto Node.js, configurar o `package.json`, criar o ponto de entrada e estabelecer a primeira versão controlada por GitHub Release.
 
 ---
+
+ A tabela agora funciona como um **painel de consulta rápida**, enquanto as seções posteriores continuam servindo como especificação detalhada de cada etapa. Os tempos podem ser ajustados depois que você tiver experiência real com as primeiras releases.
 
  Esse documento já está estruturado para funcionar como **roadmap + documentação arquitetural inicial + checklist de execução**. Conforme você avançar, o ideal é marcar os itens diretamente no arquivo e, se a arquitetura mudar, atualizar a seção correspondente em vez de tentar seguir rigidamente o planejamento original.
