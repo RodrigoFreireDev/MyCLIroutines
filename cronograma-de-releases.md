@@ -826,12 +826,12 @@ v1.2.0   nova funcionalidade
 
  ## `v0.1.0` — Inicialização
 
- - [] Inicializar projeto Node.js
-- [] Criar `package.json`
-- [] Alterar versão para `0.1.0`
-- [] Criar `index.js`
-- [] Configurar script de execução
-- [] Confirmar execução pelo terminal
+ - [✅] Inicializar projeto Node.js
+- [✅] Criar `package.json`
+- [✅] Alterar versão para `0.1.0`
+- [✅] Criar `index.js`
+- [✅] Configurar script de execução
+- [✅] Confirmar execução pelo terminal
 - [] Fazer commit da etapa
 - [] Criar tag `v0.1.0`
 - [] Criar GitHub Release `v0.1.0`

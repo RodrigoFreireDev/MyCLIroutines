@@ -4,6 +4,10 @@ O **MyCLIroutines** é uma ferramenta de linha de comando (CLI) desenvolvida em 
 
 Seja para configurar um novo ambiente de desenvolvimento, rodar scripts complexos de build, fazer backups ou consumir APIs rápidas, o MyCLIroutines transforma sequências longas de comandos em tarefas simples de um único termo.
 
+Cada recurso(serviço) presente no programa deve ser armazenado em uma pasta especifica. E o programa deve olhar essa pasta e todos os serviços compativeis serão listados no menu. Como se fosse uma pasta de programas.
+
+Esse prógrama deve ter uma versão para Linux e Windowns(O que muda são metodos de crebra de linha e mais...)
+
 ## 🚀 Funcionalidades
 
 - **Centralização de Tarefas:** Reúna todos os seus scripts utilitários em um único lugar.

@@ -1,6 +1,10 @@
 Fazer um programa interativo que user TODOS os conhecimentos adquiridos entre arquivo 1 até 46.
 
+Esse prógrama deve ter uma versão para Linux e Windowns(O que muda são metodos de crebra de linha e mais...)
+
 Sujestão de sistema: Talvez um sistema de sistemas: com opção de entrar no menu(calculos, outros)
+
+Cada recurso(serviço) presente no programa deve ser armazenado em uma pasta especifica. E o programa deve olhar essa pasta e todos os serviços compativeis serão listados no menu. Como se fosse uma pasta de programas.
 
 Fazer a primeira versão
 

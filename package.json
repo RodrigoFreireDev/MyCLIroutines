@@ -1,0 +1,17 @@
+{
+  "name": "MyCLIroutines",
+  "version": "0.1.0",
+  "description": "O **MyCLIroutines** é uma ferramenta de linha de comando (CLI) desenvolvida em **Node.js** criada para centralizar, gerenciar e automatizar suas rotinas e tarefas repetitivas do dia a dia diretamente pelo terminal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-pessoal-samsung:RodrigoFreireDev/MyCLIroutines.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
