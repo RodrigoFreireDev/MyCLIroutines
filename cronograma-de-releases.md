@@ -818,7 +818,7 @@ v1.2.0   nova funcionalidade
 
  ## Repositório
 
- - [✅] Criar repositório no GitHub
+- [✅] Criar repositório no GitHub
 - [✅] Criar `.gitignore`
 - [✅] Criar `README.md`
 - [✅] Fazer primeiro commit
@@ -826,39 +826,39 @@ v1.2.0   nova funcionalidade
 
  ## `v0.1.0` — Inicialização
 
- - [✅] Inicializar projeto Node.js
+- [✅] Inicializar projeto Node.js
 - [✅] Criar `package.json`
 - [✅] Alterar versão para `0.1.0`
 - [✅] Criar `index.js`
 - [✅] Configurar script de execução
 - [✅] Confirmar execução pelo terminal
-- [] Fazer commit da etapa
-- [] Criar tag `v0.1.0`
-- [] Criar GitHub Release `v0.1.0`
+- [✅] Fazer commit da etapa
+- [✅] Criar tag `v0.1.0`
+- [✅] Criar GitHub Release `v0.1.0`
 
  ## `v0.2.0` — Aplicação executável
 
- - [] Criar fluxo inicial da aplicação
-- [] Exibir mensagem inicial
-- [] Confirmar execução sem erros
-- [] Atualizar README
-- [] Fazer commit da etapa
-- [] Criar tag `v0.2.0`
-- [] Criar GitHub Release `v0.2.0`
+- [✅] Criar fluxo inicial da aplicação
+- [✅] Exibir mensagem inicial
+- [✅] Confirmar execução sem erros
+- [✅] Atualizar README
+- [✅] Fazer commit da etapa
+- [✅] Criar tag `v0.2.0`
+- [✅] Criar GitHub Release `v0.2.0`
 
  ## `v0.3.0` — Menu
 
- - [] Criar menu principal
-- [] Criar opções
-- [] Receber entrada do usuário
-- [] Identificar opção escolhida
+- [✅] Criar menu principal
+- [✅] Criar opções
+- [✅] Receber entrada do usuário
+- [✅] Identificar opção escolhida
 - [] Fazer commit da etapa
 - [] Criar tag `v0.3.0`
 - [] Criar GitHub Release `v0.3.0`
 
  ## `v0.4.0` — Navegação
 
- - [] Implementar `Back`
+- [] Implementar `Back`
 - [] Implementar `Close`
 - [] Tratar opção inválida
 - [] Testar navegação
@@ -869,7 +869,7 @@ v1.2.0   nova funcionalidade
 
  ## `v0.5.0` — Primeira rotina
 
- - [] Criar diretório de rotinas
+- [] Criar diretório de rotinas
 - [] Criar primeira rotina
 - [] Integrar rotina ao menu
 - [] Executar rotina pelo menu
@@ -881,7 +881,7 @@ v1.2.0   nova funcionalidade
 
  ## `v0.6.0` — UI reutilizável
 
- - [] Identificar código visual repetido
+- [] Identificar código visual repetido
 - [] Criar diretório `ui/`
 - [] Criar componente visual inicial
 - [] Criar componentes adicionais conforme necessidade
@@ -894,7 +894,7 @@ v1.2.0   nova funcionalidade
 
  ## `v0.7.0` — Integração
 
- - [] Revisar estrutura do projeto
+- [] Revisar estrutura do projeto
 - [] Revisar responsabilidades dos módulos
 - [] Remover código duplicado
 - [] Melhorar tratamento de erros
@@ -910,7 +910,7 @@ v1.2.0   nova funcionalidade
 
  ## `v0.8.x` — Refinamento
 
- - [] Revisar experiência de uso
+- [] Revisar experiência de uso
 - [] Corrigir bugs encontrados
 - [] Melhorar interface
 - [] Melhorar documentação
@@ -920,7 +920,7 @@ v1.2.0   nova funcionalidade
 
  ## `v0.9.0` — Estabilização
 
- - [] Definir conjunto mínimo de funcionalidades
+- [] Definir conjunto mínimo de funcionalidades
 - [] Confirmar que o fluxo principal está estável
 - [] Testar instalação/execução
 - [] Revisar README
@@ -933,7 +933,7 @@ v1.2.0   nova funcionalidade
 
  ## `v1.0.0` — Primeira versão estável
 
- - [] Confirmar que a aplicação está pronta para uso diário
+- [] Confirmar que a aplicação está pronta para uso diário
 - [] Confirmar funcionalidades principais
 - [] Confirmar navegação
 - [] Confirmar tratamento de erros
