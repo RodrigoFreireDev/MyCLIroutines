@@ -860,21 +860,21 @@ v1.2.0   nova funcionalidade
 
 - [✅] Implementar `Back`
 - [✅] Implementar `Close`
-- [] Tratar opção inválida
-- [] Testar navegação
-- [] Testar encerramento
-- [] Fazer commit da etapa
-- [] Criar tag `v0.4.0`
-- [] Criar GitHub Release `v0.4.0`
+- [✅] Tratar opção inválida
+- [✅] Testar navegação
+- [✅] Testar encerramento
+- [✅] Fazer commit da etapa
+- [✅] Criar tag `v0.4.0`
+- [✅] Criar GitHub Release `v0.4.0`
 
  ## `v0.5.0` — Primeira rotina
 
-- [] Criar diretório de rotinas
-- [] Criar primeira rotina
-- [] Integrar rotina ao menu
-- [] Executar rotina pelo menu
-- [] Exibir resultado
-- [] Implementar retorno ao menu
+- [✅] Criar diretório de rotinas
+- [✅] Criar primeira rotina
+- [✅] Integrar rotina ao menu
+- [✅] Executar rotina pelo menu
+- [✅] Exibir resultado
+- [✅] Implementar retorno ao menu
 - [] Fazer commit da etapa
 - [] Criar tag `v0.5.0`
 - [] Criar GitHub Release `v0.5.0`

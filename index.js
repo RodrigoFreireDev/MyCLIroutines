@@ -1,5 +1,6 @@
 import interfaceInOut from "./interface-in-out.js";
 import menuTexts from "./menuInterface.js";
+import stopDockers from "./rotinas/stop-containers.js";
 import helpInfo from "./help.js";
 import closeSystem from "./close.js";
 
@@ -39,7 +40,7 @@ function systemMenu() {
                     acao === 'c' ? console.log('AQUI C') :
                         acao === 'd' ? console.log('AQUI D') :
                             acao === 'e' ? console.log('AQUI E') :
-                                acao === 'f' ? console.log('AQUI F') :
+                                acao === 'f' ? stopDockers() /*console.log('AQUI F')*/ :
                                 console.log('\n --- ATENÇÃO: As opções validas são: a), b), c), d) e) e f) --- \n');
             setTimeout(() => {
                 systemMenu();
