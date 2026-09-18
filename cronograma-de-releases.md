@@ -852,14 +852,14 @@ v1.2.0   nova funcionalidade
 - [✅] Criar opções
 - [✅] Receber entrada do usuário
 - [✅] Identificar opção escolhida
-- [] Fazer commit da etapa
-- [] Criar tag `v0.3.0`
-- [] Criar GitHub Release `v0.3.0`
+- [✅] Fazer commit da etapa
+- [✅] Criar tag `v0.3.0`
+- [✅] Criar GitHub Release `v0.3.0`
 
  ## `v0.4.0` — Navegação
 
-- [] Implementar `Back`
-- [] Implementar `Close`
+- [✅] Implementar `Back`
+- [✅] Implementar `Close`
 - [] Tratar opção inválida
 - [] Testar navegação
 - [] Testar encerramento
