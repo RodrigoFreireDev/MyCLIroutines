@@ -1,6 +1,7 @@
 import interfaceInOut from "./interface-in-out.js";
 import menuTexts from "./menuInterface.js";
 import stopDockers from "./rotinas/stop-containers.js";
+import rodarVerificacao from "./rotinas/verifica-arquivos.js";
 import helpInfo from "./help.js";
 import closeSystem from "./close.js";
 
@@ -37,7 +38,7 @@ function systemMenu() {
         if (acao.length === 1) {
             acao === 'a' ? console.log('AQUI A') :
                 acao === 'b' ? console.log('AQUI B') :
-                    acao === 'c' ? console.log('AQUI C') :
+                    acao === 'c' ? rodarVerificacao() /*console.log('AQUI C')*/ :
                         acao === 'd' ? console.log('AQUI D') :
                             acao === 'e' ? console.log('AQUI E') :
                                 acao === 'f' ? stopDockers() /*console.log('AQUI F')*/ :
