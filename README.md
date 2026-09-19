@@ -15,6 +15,9 @@ Esse prógrama deve ter uma versão para Linux e Windowns(O que muda são metodo
 - **Configuração Customizada:** Defina suas rotinas de forma simples através de arquivos de configuração ou scripts dedicados.
 - **Leve e Veloz:** Construído sobre o ecossistema Node.js, garantindo execução rápida e compatibilidade multiplataforma.
 
+### Dica para Iniciar automaticamente: No 'OS' Apps > Inicialização. Cadastre um comando como esse: 'io.elementary.terminal -e "node '/home/MyCLIroutines/index.js'".
+'
+
 ## 🛠️ Pré-requisitos
 
 Antes de começar, você precisará ter instalado em sua máquina:

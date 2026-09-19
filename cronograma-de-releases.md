@@ -875,9 +875,9 @@ v1.2.0   nova funcionalidade
 - [✅] Executar rotina pelo menu
 - [✅] Exibir resultado
 - [✅] Implementar retorno ao menu
-- [] Fazer commit da etapa
-- [] Criar tag `v0.5.0`
-- [] Criar GitHub Release `v0.5.0`
+- [✅] Fazer commit da etapa
+- [✅] Criar tag `v0.5.0`
+- [✅] Criar GitHub Release `v0.5.0`
 
  ## `v0.6.0` — UI reutilizável
 

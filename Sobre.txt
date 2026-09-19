@@ -52,3 +52,6 @@ LISTA DE OBJETIVOS POR ARQUIVO:
 Arquivo atual: 47 OK Feito!
 De: 47
 Hoje: 20/08/2026
+
+
+### Dica para Iniciar automaticamente: No 'OS' Apps > Inicialização. Cadastre um comando como esse: 'io.elementary.terminal -e "node '/home/MyCLIroutines/index.js'".
