@@ -1,5 +1,6 @@
 import interfaceInOut from "./interface-in-out.js";
-import menuTexts from "./menuInterface.js";
+import { menuInicial } from "./menuInterface.js";
+import ambientes from "./rotinas/ambientes/start.js";
 import stopDockers from "./rotinas/stop-containers.js";
 import rodarVerificacao from "./rotinas/verifica-arquivos.js";
 import helpInfo from "./help.js";
@@ -29,23 +30,49 @@ interfaceInOut.question("Seu nome: ", (nome) => {
 function systemMenu() {
     console.clear();
 
-    interfaceInOut.question(menuTexts, (opcao) => {
+    interfaceInOut.question(menuInicial, (opcao) => {
         
         console.log("AQUI!!", opcao.toLowerCase());
         
         const acao = opcao.toLowerCase();
 
         if (acao.length === 1) {
-            acao === 'a' ? console.log('AQUI A') :
-                acao === 'b' ? console.log('AQUI B') :
-                    acao === 'c' ? rodarVerificacao() /*console.log('AQUI C')*/ :
-                        acao === 'd' ? console.log('AQUI D') :
-                            acao === 'e' ? console.log('AQUI E') :
-                                acao === 'f' ? stopDockers() /*console.log('AQUI F')*/ :
-                                console.log('\n --- ATENÇÃO: As opções validas são: a), b), c), d) e) e f) --- \n');
-            setTimeout(() => {
-                systemMenu();
-            }, 3000);
+            switch (acao) {
+                case 'a':
+                    ambientes();
+                    break;
+                case 'b':
+                    console.log('AQUI B');
+                    break;
+                case 'c':
+                    rodarVerificacao() /*console.log('AQUI C')*/
+                    break;
+                case 'd':
+                    console.log('AQUI D');
+                    break;
+                case 'e':
+                    console.log('AQUI E');
+                    break;
+                case 'f':
+                    stopDockers(); /*console.log('AQUI F')*/
+                    break;
+                default:
+                    console.log('\n --- ATENÇÃO: As opções validas são: a), b), c), d) e) e f) --- \n');
+                    setTimeout(() => {
+                        systemMenu();
+                    }, 3000);
+                    break;
+            }
+            // acao === 'a' ? ambientes()/*console.log('AQUI A')*/ :
+            //     acao === 'b' ? console.log('AQUI B') :
+            //         acao === 'c' ? rodarVerificacao() /*console.log('AQUI C')*/ :
+            //             acao === 'd' ? console.log('AQUI D') :
+            //                 acao === 'e' ? console.log('AQUI E') :
+            //                     acao === 'f' ? stopDockers() /*console.log('AQUI F')*/ :
+            //                     console.log('\n --- ATENÇÃO: As opções validas são: a), b), c), d) e) e f) --- \n');
+            // setTimeout(() => {
+            //     systemMenu();
+            // }, 3000);
         } else if (acao === 'help') {
             helpInfo();
         } else if (acao === 'close') {

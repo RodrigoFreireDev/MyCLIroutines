@@ -879,6 +879,11 @@ v1.2.0   nova funcionalidade
 - [✅] Criar tag `v0.5.0`
 - [✅] Criar GitHub Release `v0.5.0`
 
+ ## `v0.5.1` — Segunda rotina [✅]
+ ## `v0.5.2` — Terceira rotina []
+ ## `v0.5.3` — Quarta rotina []
+ ## ... 
+
  ## `v0.6.0` — UI reutilizável
 
 - [] Identificar código visual repetido
