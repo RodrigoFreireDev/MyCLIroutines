@@ -1,0 +1,73 @@
+Crie uma cópia ou renomeio o arquivo de 'ambientes-sample.json' para 'ambientes.json' de start do ambiente.
+
+Cadastre Modos de trabalhos estagio por estagio no Json:
+
+Exermplo estrutura planejada:
+{
+    "0": {
+        "nome": "Nome Modo 1",
+        "instrucoes": {
+            "dockers": {
+                "0": "Comando Docker"
+            },
+            "programas": {
+                "0": "code ~/Documentos/XPTO"
+            },
+            "web": {
+                "navegador": "chromer",
+                "url": "https://.url/",
+                "perfil": "Profile 0"
+            }
+        },
+        "menssagem": "Mensagem"
+    },
+    "1": {
+        "nome": "Nome Modo 2",
+        "instrucoes": {
+            "dockers": {
+                "0": "docker stop $(docker ps -q)",
+                "1": "docker ps"
+            },
+            "programas": {
+                "0": "code ~/Documentos/XPTO"
+            },
+            "web": {
+                "navegador": "chromer",
+                "url": "https://XPTO.com/",
+                "perfil": "Profile Google Chromer"
+            }
+        },
+        "menssagem": "Iniciando VS Code com projeto XPTO"
+    },
+    "2": {
+        "nome": "",
+        "instrucoes": {
+            "dockers": {
+                "0": ""
+            },
+            "programas": {
+                "0": ""
+            },
+            "web": {
+                "navegador": "chromer",
+                "url": "",
+                "perfil": ""
+            }
+        },
+        "menssagem": ""
+    }
+    ,
+    "3": {
+        "nome": "",
+        "instrucoes": {
+            "dockers": {},
+            "programas": {},
+            "web": {
+                "navegador": "chromer",
+                "url": "",
+                "perfil": ""
+            }
+        },
+        "menssagem": ""
+    }
+}
