@@ -880,20 +880,20 @@ v1.2.0   nova funcionalidade
 - [✅] Criar GitHub Release `v0.5.0`
 
  ## `v0.5.1` — Segunda rotina [✅]
- ## `v0.5.2` — Terceira rotina []
+ ## `v0.5.2` — Terceira rotina [✅]
  ## `v0.5.3` — Quarta rotina []
  ## ... 
 
  ## `v0.6.0` — UI reutilizável
 
-- [] Identificar código visual repetido
-- [] Criar diretório `ui/`
-- [] Criar componente visual inicial
-- [] Criar componentes adicionais conforme necessidade
-- [] Padronizar apresentação
-- [] Integrar UI ao menu
-- [] Integrar UI às rotinas
-- [] Fazer commit da etapa
+- [✅] Identificar código visual repetido
+- [✅] Criar diretório `ui/`
+- [✅] Criar componente visual inicial
+- [✅] Criar componentes adicionais conforme necessidade
+- [✅] Padronizar apresentação
+- [✅] Integrar UI ao menu
+- [✅] Integrar UI às rotinas
+- [✅] Fazer commit da etapa
 - [] Criar tag `v0.6.0`
 - [] Criar GitHub Release `v0.6.0`
 

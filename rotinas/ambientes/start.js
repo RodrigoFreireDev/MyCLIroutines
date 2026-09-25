@@ -6,7 +6,7 @@ import { exec } from "child_process";
 import console from "console";
 import interfaceInOut from "../../interface-in-out.js";
 import systemMenu from "../../index.js";
-import { menuAmbientes } from "../../menuInterface.js";
+import { menuAmbientes } from "../../ui/menuInterface.js";
 import fs from 'fs';
 
 const naveg = {
@@ -33,7 +33,7 @@ function ambientes() {
 };
 
 function startAmbiente(acao) {
-    fs.readFile('./rotinas/ambientes/ambientes.json', 'utf-8', (erro, text) => {
+    fs.readFile('/home/rodrigo/Documentos/DEV/Estudos/Carreira-Node/MyCLIroutines/rotinas/ambientes/ambientes.json', 'utf-8', (erro, text) => {
         if (erro) {
             console.log('Erro ao ler arquivo JSON: ', erro.message);
             setTimeout(() => {

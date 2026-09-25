@@ -1,5 +1,5 @@
 import interfaceInOut from "./interface-in-out.js";
-import { menuInicial } from "./menuInterface.js";
+import { menuInicial } from "./ui/menuInterface.js";
 import ambientes from "./rotinas/ambientes/start.js";
 import stopDockers from "./rotinas/stop-containers.js";
 import rodarVerificacao from "./rotinas/verifica-arquivos.js";
@@ -7,7 +7,7 @@ import helpInfo from "./help.js";
 import closeSystem from "./close.js";
 
 console.log('-------------------------------------------------------------------');
-console.log('---------------- Bem-vindo ao MyCLIroutines 0.2.0 -----------------');
+console.log('---------------- Bem-vindo ao MyCLIroutines 0.5.2 -----------------');
 console.log('------------------------------ MENU -------------------------------');
 console.log('-------------------------------------------------------------------');
 console.log('------------------ Micro Sistema OS de Terminal -------------------');
@@ -42,10 +42,10 @@ function systemMenu() {
                     ambientes();
                     break;
                 case 'b':
-                    console.log('AQUI B');
+                    stopDockers();
                     break;
                 case 'c':
-                    rodarVerificacao() /*console.log('AQUI C')*/
+                    rodarVerificacao()
                     break;
                 case 'd':
                     console.log('AQUI D');
@@ -54,7 +54,7 @@ function systemMenu() {
                     console.log('AQUI E');
                     break;
                 case 'f':
-                    stopDockers(); /*console.log('AQUI F')*/
+                    console.log('AQUI F');
                     break;
                 default:
                     console.log('\n --- ATENÇÃO: As opções validas são: a), b), c), d) e) e f) --- \n');
