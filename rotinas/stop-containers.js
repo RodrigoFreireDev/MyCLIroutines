@@ -21,7 +21,7 @@ async function stopDockers() {
 
         setTimeout(() => {
             systemMenu();
-        }, 3000);
+        }, 2000);
     } catch (error) {
         console.clear();
         console.log('Erro ao executar o comando Docker', error.message);

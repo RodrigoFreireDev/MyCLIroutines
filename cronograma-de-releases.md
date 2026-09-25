@@ -894,22 +894,22 @@ v1.2.0   nova funcionalidade
 - [✅] Integrar UI ao menu
 - [✅] Integrar UI às rotinas
 - [✅] Fazer commit da etapa
-- [] Criar tag `v0.6.0`
-- [] Criar GitHub Release `v0.6.0`
+- [✅] Criar tag `v0.6.0`
+- [✅] Criar GitHub Release `v0.6.0`
 
  ## `v0.7.0` — Integração
 
-- [] Revisar estrutura do projeto
-- [] Revisar responsabilidades dos módulos
-- [] Remover código duplicado
-- [] Melhorar tratamento de erros
-- [] Testar fluxo completo
-- [] Testar menu
-- [] Testar Back
-- [] Testar Close
-- [] Testar rotina
-- [] Atualizar README
-- [] Fazer commit da etapa
+- [✅] Revisar estrutura do projeto
+- [✅] Revisar responsabilidades dos módulos
+- [✅] Remover código duplicado
+- [✅] Melhorar tratamento de erros
+- [✅] Testar fluxo completo
+- [✅] Testar menu
+- [✅] Testar Back
+- [✅] Testar Close
+- [✅] Testar rotina
+- [✅] Atualizar README
+- [✅] Fazer commit da etapa
 - [] Criar tag `v0.7.0`
 - [] Criar GitHub Release `v0.7.0`
 

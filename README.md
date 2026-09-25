@@ -1,3 +1,4 @@
+# README desatualizado!
 # MyCLIroutines
 
 O **MyCLIroutines** é uma ferramenta de linha de comando (CLI) desenvolvida em **Node.js** criada para centralizar, gerenciar e automatizar suas rotinas e tarefas repetitivas do dia a dia diretamente pelo terminal.

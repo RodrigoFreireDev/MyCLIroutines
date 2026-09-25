@@ -12,7 +12,7 @@ function rodarVerificacao() {
 };
 
 async function verificaArquivo(pathFile) {
-    console.log('Iniciando ...');
+    console.log(' -- Iniciando ...');
 
     const extencoesSuspeitas = [
         '.exe',

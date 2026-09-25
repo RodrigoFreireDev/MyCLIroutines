@@ -17,8 +17,8 @@ console.log('');
 console.log('                                                  By Rodrigo Freire');
 console.log('-------------------------------------------------------------------');
 
-interfaceInOut.question("Seu nome: ", (nome) => {
-    console.log("Olá, ", nome);
+interfaceInOut.question("Olá, sejá bem-vindo!\n\nAperte ENTER para iniciar:", () => {
+    console.log(" -- Iniciando...");
 
     setTimeout(() => {
         console.clear();
@@ -31,8 +31,6 @@ function systemMenu() {
     console.clear();
 
     interfaceInOut.question(menuInicial, (opcao) => {
-        
-        console.log("AQUI!!", opcao.toLowerCase());
         
         const acao = opcao.toLowerCase();
 
