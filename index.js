@@ -2,12 +2,13 @@ import interfaceInOut from "./interface-in-out.js";
 import { menuInicial } from "./ui/menuInterface.js";
 import ambientes from "./rotinas/ambientes/start.js";
 import stopDockers from "./rotinas/stop-containers.js";
+import psDockers from "./rotinas/ps-containers.js";
 import rodarVerificacao from "./rotinas/verifica-arquivos.js";
 import helpInfo from "./help.js";
 import closeSystem from "./close.js";
 
 console.log('-------------------------------------------------------------------');
-console.log('---------------- Bem-vindo ao MyCLIroutines 0.5.2 -----------------');
+console.log('---------------- Bem-vindo ao MyCLIroutines 0.8.0 -----------------');
 console.log('------------------------------ MENU -------------------------------');
 console.log('-------------------------------------------------------------------');
 console.log('------------------ Micro Sistema OS de Terminal -------------------');
@@ -40,13 +41,13 @@ function systemMenu() {
                     ambientes();
                     break;
                 case 'b':
-                    stopDockers();
+                    psDockers();
                     break;
                 case 'c':
-                    rodarVerificacao()
+                    stopDockers();
                     break;
                 case 'd':
-                    console.log('AQUI D');
+                    rodarVerificacao();
                     break;
                 case 'e':
                     console.log('AQUI E');

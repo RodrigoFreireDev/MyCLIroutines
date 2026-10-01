@@ -6,32 +6,23 @@ import { promisify } from "util";
 // Transforma o exec tradicional em uma função que aceita async/await
 const execPromise = promisify(exec);
 
-async function stopDockers() {
+async function psDockers() {
     console.clear();
 
     try {
-        const { stdout, stderr } = await execPromise('docker stop $(docker ps -q)');
-        // const { stdout, stderr } = await execPromise('docker ps');
+        const { stdout, stderr } = await execPromise('docker ps');
         
         if (stderr) {
             console.warn('Avisos do Dockers: ', stderr);
         }
         
-        console.log(' --- Parando os Containers --- ');
+        console.log(' --- Lista de Containers Ativos --- ');
         console.log('Status do Dockers: \n', stdout);
-
-        // setTimeout(() => {
-        //     systemMenu();
-        // }, 2000);
         backToMenu();
     } catch (error) {
         console.clear();
         console.log('Erro ao executar o comando Docker', error.message);
-
         backToMenu();
-        // setTimeout(() => {
-        //     systemMenu();
-        // }, 2000);
     }
 };
 
@@ -41,5 +32,4 @@ function backToMenu() {
     });
 }
 
-
-export default stopDockers;
+export default psDockers;

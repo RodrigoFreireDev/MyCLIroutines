@@ -6,7 +6,7 @@ import { exec } from "child_process";
 import console from "console";
 import interfaceInOut from "../../interface-in-out.js";
 import systemMenu from "../../index.js";
-import { menuAmbientes } from "../../ui/menuInterface.js";
+import { montaMenuAmbientes } from "../../ui/menuInterface.js";
 import fs from 'fs';
 
 const naveg = {
@@ -17,7 +17,9 @@ const naveg = {
 function ambientes() {
     console.clear();
 
-    interfaceInOut.question(menuAmbientes, (opcao) => {
+    const textMenu = montaMenuAmbientes();
+
+    interfaceInOut.question(textMenu, (opcao) => {
         const acao = Number(opcao);
 
         if (typeof acao !== 'number' || Number.isNaN(acao) || String(opcao).trim() === "") {

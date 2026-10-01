@@ -910,8 +910,8 @@ v1.2.0   nova funcionalidade
 - [✅] Testar rotina
 - [✅] Atualizar README
 - [✅] Fazer commit da etapa
-- [] Criar tag `v0.7.0`
-- [] Criar GitHub Release `v0.7.0`
+- [✅] Criar tag `v0.7.0`
+- [✅] Criar GitHub Release `v0.7.0`
 
  ## `v0.8.x` — Refinamento
 
